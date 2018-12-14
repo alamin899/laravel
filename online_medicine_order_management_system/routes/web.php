@@ -41,6 +41,16 @@ Route::get('/dashbord',[
     'as'=>'dashbord'
 ]);
 
+Route::get('/area',[
+    'uses'=>'addController@addarea',
+    'as'=>'addarea'
+]);
+
+
+Route::post('/area_list',[
+    'uses'=>'addController@areaadd',
+    'as'=>'areaadd'
+]);
 
 Route::get('/adminpannel',[
     'uses'=>'admin@adminpannel'

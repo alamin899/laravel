@@ -1,3 +1,6 @@
+
+
+
 <div class="navbar-default sidebar" role="navigation">
     <div class="sidebar-nav navbar-collapse">
         <ul class="nav" id="side-menu">
@@ -23,7 +26,8 @@
                     </li>
 
                     <li>
-                        <a href="flot.html">Area Add</a>
+                        <a href="{{route('addarea')}}">Area Add</a>
+
                     </li>
                     <li>
                         <a href="morris.html">Medicine Add</a>
@@ -115,3 +119,14 @@
     </div>
     <!-- /.sidebar-collapse -->
 </div>
+
+
+
+<!-- Modal -->
+
+
+
+
+
+
+

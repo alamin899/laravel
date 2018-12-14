@@ -47,11 +47,11 @@
 
       @include('admin.include.sidebar')
         <!-- /.navbar-static-side -->
-    </nav>
+
 
     @yield('body')
     <!-- /#page-wrapper -->
-
+    </nav>
 </div>
 <!-- /#wrapper -->
 
@@ -71,6 +71,8 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{asset('admin/dashbord/dist/')}}/js/sb-admin-2.js"></script>
+
+
 
 </body>
 
