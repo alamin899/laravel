@@ -1,0 +1,40 @@
+.text a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: #2fa360;
+}
+.containers{
+    background-color: #1b4b72;
+    min-height: 40px;
+    max-height: 50px;
+}
+.imagesize{
+
+
+    padding-right:0px;
+    min-height: 50px;
+    max-height: 250px;
+    width:100%;
+}
+
+.ullist{
+    text-decoration: none;
+
+    min-height: 200px;
+    max-height: 300px;
+
+
+
+}
+.ullist ul li{
+    padding-top: 30px;
+}
+.menu{
+    background: #1d643b;
+    min-height: 40px;
+}
+.menu a{
+    padding-top: 6px;
+    padding-left: 40px;
+    text-align: center;
+}
