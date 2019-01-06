@@ -15,14 +15,20 @@
                 </div>
                 <!-- /input-group -->
             </li>
+
+
             <li>
-                <a href="{{route('dashbord')}}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                <a href="{{route('dashbord')}}"><i class="fa fa-list fa-fw"></i> Dahbord</a>
+            </li>
+
+            <li>
+                <a href="{{route('registerlist')}}"><i class="fa fa-list fa-fw"></i> Register List</a>
             </li>
             <li>
                 <a href="#"><i class="glyphicon glyphicon-menu-hamburger "></i> Add List</a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="flot.html">Farmacy Add</a>
+                        <a href="{{route('pharmacyview')}}">Fharmacy Add</a>
                     </li>
 
                     <li>
@@ -39,7 +45,7 @@
                 <a href="tables.html"><i class="fa fa-table fa-fw"></i> Item Table</a>
             </li>
             <li>
-                <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Farmacy List</a>
+                <a href=""><i class="fa fa-edit fa-fw"></i> Farmacy List</a>
             </li>
 
             <li>

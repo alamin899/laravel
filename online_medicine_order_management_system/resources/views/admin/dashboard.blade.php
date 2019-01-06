@@ -45,11 +45,12 @@
         @include('admin.include.head')
         <!-- /.navbar-top-links -->
 
+
       @include('admin.include.sidebar')
         <!-- /.navbar-static-side -->
+        @yield('body')
 
 
-    @yield('body')
     <!-- /#page-wrapper -->
     </nav>
 </div>

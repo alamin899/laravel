@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\pharmacy;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -14,4 +15,23 @@ class Controller extends BaseController
     public function index(){
         return redirect('/')->with('message','you click home index');
     }
+
+
+    public function listpharmacy()
+    {
+
+        $pharmacies = pharmacy::all();
+
+
+        return view('frontEnd.view.pharmacyList', [
+            'pharmacies' => $pharmacies
+        ]);
+
+    }
+
+
+
+
+
+
 }
